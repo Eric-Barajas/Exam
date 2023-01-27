@@ -20,19 +20,6 @@ const AllPets = () => {
             })
     }, [])
 
-    // const handleDelete = (idToBeDeleted) => {
-    //     axios.delete(`http://localhost:8000/api/pets/${idToBeDeleted}`)
-    //         .then(res => {
-    //             const filteredPets = pets.filter((pet) => {
-    //                 return pet._id !== idToBeDeleted;
-    //             })
-
-    //             setPets(filteredPets);
-    //         }).catch(err => {
-    //             console.log(err);
-    //         })
-    // }
-
     return (
         <div className="container">
             <div>
